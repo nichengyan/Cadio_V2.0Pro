@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.43.1.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: NI CHENGYAN, Microsoft, LIC=8V08I-TL8F8-286FJ-U09AA-G19VC-N0PJ0
+ 
+Tool Versions:
+Toolchain:       PK51 Prof. Developers Kit  Version: 9.60.0.0
+Toolchain Path:  C:\Keil_v5\C51\BIN
+C Compiler:      C51.exe V9.60.0.0
+Assembler:       A51.exe V8.2.7.0
+Linker/Locator:  LX51.exe V4.66.97.0
+Library Manager: LIBX51.exe V4.30.1.0
+Hex Converter:   OHX51.exe V1.47.0.0
+CPU DLL:         S8051.DLL V3.122.0.0
+Dialog DLL:      DP51.DLL V2.67.0.0 
+<h2>Project:</h2>
+C:\Keil_v5\projects\CadioV2.0_Pro\Cadio_WebTest\WebTest.uvproj
+Project File Date:  10/08/2025
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.c(711): warning C182: pointer to different objects
+compiling Gui.c...
+compiling ADC.C...
+compiling Key.c...
+compiling oled.c...
+compiling UART.C...
+compiling SD.c...
+compiling diskio.c...
+fatfs\diskio.c(30): warning C280: 'stat': unreferenced local variable
+fatfs\diskio.c(31): warning C280: 'result': unreferenced local variable
+fatfs\diskio.c(76): warning C280: 'stat': unreferenced local variable
+fatfs\diskio.c(77): warning C280: 'result': unreferenced local variable
+fatfs\diskio.c(127): warning C280: 'res': unreferenced local variable
+fatfs\diskio.c(128): warning C280: 'result': unreferenced local variable
+fatfs\diskio.c(234): warning C280: 'cmd': unreferenced local variable
+fatfs\diskio.c(235): warning C280: 'buff': unreferenced local variable
+fatfs\diskio.c(238): warning C280: 'res': unreferenced local variable
+fatfs\diskio.c(239): warning C280: 'result': unreferenced local variable
+compiling ff.c...
+fatfs\ff.c(3053): warning C294: unreachable code
+fatfs\ff.c(3366): warning C294: unreachable code
+fatfs\ff.c(3382): warning C294: unreachable code
+fatfs\ff.c(4505): warning C294: unreachable code
+compiling ffsystem.c...
+compiling ffunicode.c...
+linking...
+*** WARNING L48: IGNORED RECURSIVE CALL
+    CALLED:  GUI
+    CALLER:  _INT16_MIN/GUI
+*** ERROR L127: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  Uart_Init
+    MODULE:  .\Objects\main.obj (MAIN)
+*** ERROR L128: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  Uart_Init
+    MODULE:  .\Objects\main.obj (MAIN)
+    ADDRESS: 1005E97H
+Program Size: data=15.1 xdata=8123 const=7354 code=30066
+Target not created.
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

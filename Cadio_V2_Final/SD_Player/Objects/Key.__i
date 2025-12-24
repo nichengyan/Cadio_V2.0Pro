@@ -1,0 +1,1 @@
+"hardware\Key.c" LARGE OPTIMIZE (9,SPEED) BROWSE INCDIR(.\comm;.\fatfs;.\graphic;.\hardware) DEBUG OBJECTEXTEND PRINT(.\Listings\Key.lst) OBJECT(.\Objects\Key.obj)

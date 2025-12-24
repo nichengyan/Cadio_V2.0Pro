@@ -1,0 +1,1 @@
+"hardware\oled.c" LARGE OMF2 OPTIMIZE (8,SPEED) BROWSE INTVECTOR(0x3000) INCDIR(.\comm;.\comm;.\fat12;.\hardware) DEBUG PRINT(.\Listings\oled.lst) OBJECT(.\Objects\oled.obj)

@@ -1,0 +1,1 @@
+"fatfs\ff.c" LARGE OPTIMIZE (9,SPEED) BROWSE INCDIR(.\comm;.\fatfs;.\graphic;.\hardware) DEBUG OBJECTEXTEND PRINT(.\Listings\ff.lst) OBJECT(.\Objects\ff.obj)

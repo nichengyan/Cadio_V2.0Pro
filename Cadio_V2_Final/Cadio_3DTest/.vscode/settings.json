@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "ADC.C": "cpp",
+        "_stc8x_.h": "c",
+        "string.h": "c",
+        "STRING.H": "cpp"
+    }
+}

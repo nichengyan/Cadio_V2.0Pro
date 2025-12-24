@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "ADC.C": "cpp",
+        "UART.C": "cpp"
+    }
+}

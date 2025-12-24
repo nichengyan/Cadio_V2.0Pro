@@ -1,0 +1,31 @@
+# Keil 通用忽略
+**/*.uvguix.*
+**/*.uvoptx
+**/*.uvprojx
+**/*.uvmpw
+
+# 编译输出 - 使用通配符匹配所有子目录
+**/Debug/
+**/Release/
+**/Output/
+**/Obj/
+**/Listings/
+
+# 特定格式文件
+**/*.axf
+**/*.elf
+**/*.map
+**/*.lst
+**/*.hex
+**/*.bin
+**/*.o
+**/*.d
+
+# Keil 临时文件
+**/*.cdb
+**/*.ini
+**/*.dep
+**/*.crf
+**/*.lnp
+**/*.sct
+**/*.sym

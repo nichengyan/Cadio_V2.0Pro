@@ -1,0 +1,106 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.43.1.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: NI CHENGYAN, Microsoft, LIC=8V08I-TL8F8-286FJ-U09AA-G19VC-N0PJ0
+ 
+Tool Versions:
+Toolchain:       PK51 Prof. Developers Kit  Version: 9.60.0.0
+Toolchain Path:  C:\Keil_v5\C51\BIN
+C Compiler:      C51.exe V9.60.0.0
+Assembler:       A51.exe V8.2.7.0
+Linker/Locator:  LX51.exe V4.66.97.0
+Library Manager: LIBX51.exe V4.30.1.0
+Hex Converter:   OHX51.exe V1.47.0.0
+CPU DLL:         S8051.DLL V3.122.0.0
+Dialog DLL:      DP51.DLL V2.67.0.0 
+<h2>Project:</h2>
+C:\Keil_v5\projects\CadioV2.0_Pro\SD_KunBox\sd+kunbox.uvproj
+Project File Date:  12/12/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+main.c(178): warning C182: pointer to different objects
+main.c(192): warning C182: pointer to different objects
+main.c(198): warning C182: pointer to different objects
+compiling ADC.C...
+compiling Key.c...
+compiling oled.c...
+compiling SD.c...
+compiling diskio.c...
+fatfs\SD.h(11): warning C318: can't open file 'STC32G.h'
+fatfs\diskio.c(30): warning C280: 'stat': unreferenced local variable
+fatfs\diskio.c(31): warning C280: 'result': unreferenced local variable
+fatfs\diskio.c(76): warning C280: 'stat': unreferenced local variable
+fatfs\diskio.c(77): warning C280: 'result': unreferenced local variable
+fatfs\diskio.c(127): warning C280: 'res': unreferenced local variable
+fatfs\diskio.c(128): warning C280: 'result': unreferenced local variable
+fatfs\diskio.c(183): warning C280: 'res': unreferenced local variable
+fatfs\diskio.c(184): warning C280: 'result': unreferenced local variable
+fatfs\diskio.c(234): warning C280: 'cmd': unreferenced local variable
+fatfs\diskio.c(235): warning C280: 'buff': unreferenced local variable
+fatfs\diskio.c(238): warning C280: 'res': unreferenced local variable
+fatfs\diskio.c(239): warning C280: 'result': unreferenced local variable
+compiling ff.c...
+fatfs\ff.c(2556): warning C294: unreachable code
+fatfs\ff.c(3053): warning C294: unreachable code
+fatfs\ff.c(4480): warning C294: unreachable code
+fatfs\ff.c(4914): warning C294: unreachable code
+fatfs\ff.c(5006): warning C294: unreachable code
+compiling ffsystem.c...
+compiling ffunicode.c...
+linking...
+*** WARNING L46: SFR SYMBOL HAS DIFFERENT VALUES
+    SYMBOL:  sd_cs
+    MODULE:  .\Objects\diskio.obj (DISKIO)
+   DEFINED:  .\Objects\main.obj (MAIN)
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _DELAYMS/MAIN
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    ADC_SHUTDOWN/ADC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_DISPLAYTURN/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    OLED_DISPLAY_OFF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_SHOWNUM/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_PRINTF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_DRAWBMP/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _SD_GETCID/SD
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    SD_GETSECTORCOUNT/SD
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _F_WRITE/FF
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _F_OPENDIR/FF
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _F_CLOSEDIR/FF
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _F_READDIR/FF
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _F_STAT/FF
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _F_GETFREE/FF
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _F_TRUNCATE/FF
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _F_UNLINK/FF
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _F_MKDIR/FF
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _F_RENAME/FF
+Program Size: data=18.3 xdata=5845 const=1581 code=43967
+creating hex file from ".\Objects\sd+kunbox"...
+".\Objects\sd+kunbox" - 0 Error(s), 41 Warning(s).
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

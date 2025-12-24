@@ -1,0 +1,1 @@
+"gui\Gui.c" LARGE OMF2 OPTIMIZE (9,SPEED) BROWSE INTVECTOR(0x3000) INCDIR(.\comm;.\hardware;.\gui;.\comm;.\gui;.\hardware) DEBUG PRINT(.\Listings\Gui.lst) OBJECT(.\Objects\Gui.obj)

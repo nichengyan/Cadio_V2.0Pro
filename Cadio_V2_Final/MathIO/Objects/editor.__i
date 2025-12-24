@@ -1,0 +1,1 @@
+"editor\editor.c" LARGE OMF2 OPTIMIZE (9,SIZE) BROWSE INCDIR(.\comm;.\editor;.\Expression;.\fat12;.\gui;.\hardware;.\tick) DEBUG PRINT(.\Listings\editor.lst) OBJECT(.\Objects\editor.obj)

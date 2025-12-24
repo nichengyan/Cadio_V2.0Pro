@@ -1,0 +1,1 @@
+"hardware\Key.c" LARGE OMF2 OPTIMIZE (8,SPEED) BROWSE INTVECTOR(0x3000) INCDIR(.\comm;.\hardware;.\comm;.\hardware;.\fat12;.\gui) DEBUG PRINT(.\Listings\Key.lst) OBJECT(.\Objects\Key.obj)

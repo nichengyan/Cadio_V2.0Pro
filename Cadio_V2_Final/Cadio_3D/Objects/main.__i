@@ -1,0 +1,1 @@
+"main.c" LARGE OBJECTADVANCED OPTIMIZE (8,SPEED) BROWSE INTVECTOR(0x3000) INCDIR(.\comm;.\hardware;.\graphic) DEBUG CODE PRINT(.\Listings\main.lst) SRC (.\Objects\main.SRC)

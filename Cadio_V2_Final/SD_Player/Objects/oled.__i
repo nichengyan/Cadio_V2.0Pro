@@ -1,0 +1,1 @@
+"hardware\oled.c" LARGE OPTIMIZE (9,SPEED) BROWSE INCDIR(.\comm;.\fatfs;.\graphic;.\hardware) DEBUG OBJECTEXTEND PRINT(.\Listings\oled.lst) OBJECT(.\Objects\oled.obj)

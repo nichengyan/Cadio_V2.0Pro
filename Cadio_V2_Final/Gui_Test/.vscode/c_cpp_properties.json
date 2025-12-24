@@ -1,0 +1,43 @@
+{
+    "configurations": [
+        {
+            "name": "Target 1",
+            "includePath": [
+                "c:\\Keil_v5\\projects\\CadioV2.0\\Gui_Test\\comm",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\Gui_Test\\hardware",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\Gui_Test\\fat12",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\Gui_Test\\gui",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\Gui_Test\\Expression",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\Gui_Test\\graphic",
+                "C:\\Keil_v5\\C51\\INC",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\Gui_Test"
+            ],
+            "defines": [
+                "__C51__",
+                "__VSCODE_C51__",
+                "reentrant=",
+                "compact=",
+                "small=",
+                "large=",
+                "data=",
+                "idata=",
+                "pdata=",
+                "bdata=",
+                "xdata=",
+                "code=",
+                "bit=char",
+                "sbit=char",
+                "sfr=char",
+                "sfr16=int",
+                "sfr32=int",
+                "interrupt=",
+                "using=",
+                "_at_=",
+                "_priority_=",
+                "_task_="
+            ],
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}

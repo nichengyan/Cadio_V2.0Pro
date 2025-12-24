@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.43.1.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: NI CHENGYAN, Microsoft, LIC=8V08I-TL8F8-286FJ-U09AA-G19VC-N0PJ0
+ 
+Tool Versions:
+Toolchain:       PK51 Prof. Developers Kit  Version: 9.60.0.0
+Toolchain Path:  C:\Keil_v5\C51\BIN
+C Compiler:      C51.exe V9.60.0.0
+Assembler:       AX51.exe V3.15.3.0
+Linker/Locator:  LX51.exe V4.66.97.0
+Library Manager: LIBX51.exe V4.30.1.0
+Hex Converter:   OHX51.exe V1.47.0.0
+CPU DLL:         S8051.DLL V3.122.0.0
+Dialog DLL:      DP51.DLL V2.67.0.0 
+<h2>Project:</h2>
+C:\Keil_v5\projects\CadioV2.0_Pro\FAT12_Loader_V3.0\fat12_loader.uvproj
+Project File Date:  12/06/2025
+
+<h2>Output:</h2>
+Rebuild target 'Target_1'
+compiling main.c...
+main.c(309): warning C196: mspace probably invalid
+main.c(394): warning C316: unterminated conditionals
+assembling STARTUP.A51...
+compiling ADC.C...
+compiling BM8563.c...
+hardware\BM8563.c(95): warning C280: 'i': unreferenced local variable
+hardware\BM8563.c(95): warning C280: 'res': unreferenced local variable
+hardware\BM8563.c(105): warning C280: 'i': unreferenced local variable
+hardware\BM8563.c(160): warning C316: unterminated conditionals
+compiling EEPROM.c...
+compiling oled.c...
+compiling W25QXX.c...
+hardware\W25QXX.c(354): warning C280: 'i': unreferenced local variable
+compiling FAT12.c...
+fat12\FAT12.c(187): warning C291: not every exit path returns a value
+linking...
+*** WARNING L30: MEMORY SPACE OVERLAP
+    SEG:     ?CO?STARTUP?0
+    FROM:    C:000000H   
+    TO:      C:000003H   
+Program Size: data=15.1 xdata=7728 const=1606 code=10115
+creating hex file from ".\Objects\fat12_loader"...
+".\Objects\fat12_loader" - 0 Error(s), 9 Warning(s).
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

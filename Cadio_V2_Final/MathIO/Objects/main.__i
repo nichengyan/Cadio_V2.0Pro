@@ -1,0 +1,1 @@
+"main.c" LARGE OMF2 OPTIMIZE (9,SIZE) BROWSE INCDIR(.\comm;.\editor;.\Expression;.\fat12;.\gui;.\hardware;.\tick) DEBUG PRINT(.\Listings\main.lst) OBJECT(.\Objects\main.obj)

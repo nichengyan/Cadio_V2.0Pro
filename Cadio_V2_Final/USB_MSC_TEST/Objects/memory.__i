@@ -1,0 +1,1 @@
+"usb_msc\memory.c" LARGE OMF2 OPTIMIZE (8,SPEED) BROWSE INCDIR(.\hardware;.\usb_msc) DEBUG PRINT(.\Listings\memory.lst) OBJECT(.\Objects\memory.obj)

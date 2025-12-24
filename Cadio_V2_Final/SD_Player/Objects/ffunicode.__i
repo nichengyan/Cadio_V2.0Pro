@@ -1,0 +1,1 @@
+"fatfs\ffunicode.c" LARGE OPTIMIZE (9,SPEED) BROWSE INCDIR(.\comm;.\fatfs;.\graphic;.\hardware) DEBUG OBJECTEXTEND PRINT(.\Listings\ffunicode.lst) OBJECT(.\Objects\ffunicode.obj)

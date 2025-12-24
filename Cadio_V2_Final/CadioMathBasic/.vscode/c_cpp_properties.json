@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "name": "Target 1",
+            "includePath": [
+                "c:\\Keil_v5\\projects\\CadioV2.0\\CadioMathBasic\\calculator",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\CadioMathBasic\\comm",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\CadioMathBasic\\Expression",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\CadioMathBasic\\gui",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\CadioMathBasic\\hardware",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\CadioMathBasic\\Menu0",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\CadioMathBasic\\funcpic",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\CadioMathBasic\\BeginUI",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\CadioMathBasic\\settings",
+                "C:\\Keil_v5\\C51\\INC",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\CadioMathBasic"
+            ],
+            "defines": [
+                "__C51__",
+                "__VSCODE_C51__",
+                "reentrant=",
+                "compact=",
+                "small=",
+                "large=",
+                "data=",
+                "idata=",
+                "pdata=",
+                "bdata=",
+                "xdata=",
+                "code=",
+                "bit=char",
+                "sbit=char",
+                "sfr=char",
+                "sfr16=int",
+                "sfr32=int",
+                "interrupt=",
+                "using=",
+                "_at_=",
+                "_priority_=",
+                "_task_="
+            ],
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}

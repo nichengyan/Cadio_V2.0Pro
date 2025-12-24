@@ -1,0 +1,12 @@
+Build target 'Target 1'
+compiling main.c...
+main.c(555): warning C182: pointer to different objects
+linking...
+*** WARNING L48: IGNORED RECURSIVE CALL
+    CALLED:  GUI
+    CALLER:  _INT16_MIN/GUI
+
+Program Size: data=15.1 xdata=7281 const=7208 code=28042
+creating hex file from ".\Objects\WebTest"...
+".\Objects\WebTest" - 0 Error(s), 2 Warning(s).
+Build Time Elapsed:  00:00:01

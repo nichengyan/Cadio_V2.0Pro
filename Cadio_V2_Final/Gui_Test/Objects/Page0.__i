@@ -1,0 +1,1 @@
+"gui\Page0.c" LARGE OMF2 OPTIMIZE (0,SIZE) BROWSE INCDIR(.\comm;.\hardware;.\fat12;.\gui;.\Expression;.\graphic) DEBUG PRINT(.\Listings\Page0.lst) OBJECT(.\Objects\Page0.obj)

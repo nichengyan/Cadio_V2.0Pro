@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "Target 1",
+            "includePath": [
+                "c:\\Keil_v5\\projects\\CadioV2.0\\SD_Player\\comm",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\SD_Player\\fatfs",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\SD_Player\\graphic",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\SD_Player\\hardware",
+                "C:\\Keil_v5\\C51\\INC",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\SD_Player"
+            ],
+            "defines": [
+                "__C51__",
+                "__VSCODE_C51__",
+                "reentrant=",
+                "compact=",
+                "small=",
+                "large=",
+                "data=",
+                "idata=",
+                "pdata=",
+                "bdata=",
+                "xdata=",
+                "code=",
+                "bit=char",
+                "sbit=char",
+                "sfr=char",
+                "sfr16=int",
+                "sfr32=int",
+                "interrupt=",
+                "using=",
+                "_at_=",
+                "_priority_=",
+                "_task_="
+            ],
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}

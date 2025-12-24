@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "ADC.C": "cpp",
+        "UART.C": "cpp",
+        "usb.h": "c",
+        "oled.h": "c"
+    }
+}

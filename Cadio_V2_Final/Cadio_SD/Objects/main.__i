@@ -1,0 +1,1 @@
+"main.c" LARGE OPTIMIZE (7,SIZE) BROWSE INCDIR(.\comm;.\hardware;.\fatfs;.\graphic) DEBUG OBJECTEXTEND PRINT(.\Listings\main.lst) OBJECT(.\Objects\main.obj)

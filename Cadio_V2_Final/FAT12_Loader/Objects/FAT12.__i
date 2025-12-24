@@ -1,0 +1,1 @@
+"fat12\FAT12.c" LARGE OMF2 OPTIMIZE (8,SIZE) BROWSE INCDIR(.\hardware;.\comm;.\comm;.\fat12;.\hardware) DEBUG PRINT(.\Listings\FAT12.lst) OBJECT(.\Objects\FAT12.obj)

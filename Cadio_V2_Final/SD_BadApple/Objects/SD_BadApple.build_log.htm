@@ -1,0 +1,114 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.43.1.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: NI CHENGYAN, Microsoft, LIC=8V08I-TL8F8-286FJ-U09AA-G19VC-N0PJ0
+ 
+Tool Versions:
+Toolchain:       PK51 Prof. Developers Kit  Version: 9.60.0.0
+Toolchain Path:  C:\Keil_v5\C51\BIN
+C Compiler:      C51.exe V9.60.0.0
+Assembler:       A51.exe V8.2.7.0
+Linker/Locator:  BL51.exe V6.22.2.0
+Library Manager: LIB51.exe V4.30.1.0
+Hex Converter:   OH51.exe V2.7.0.0
+CPU DLL:         S8051.DLL V3.122.0.0
+Dialog DLL:      DP51.DLL V2.67.0.0 
+<h2>Project:</h2>
+C:\Keil_v5\projects\CadioV2.0_Pro\SD_BadApple\SD_BadApple.uvproj
+Project File Date:  11/15/2025
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling Key.c...
+compiling oled.c...
+compiling SD.c...
+compiling diskio.c...
+fatfs\diskio.c(30): warning C280: 'stat': unreferenced local variable
+fatfs\diskio.c(31): warning C280: 'result': unreferenced local variable
+fatfs\diskio.c(76): warning C280: 'stat': unreferenced local variable
+fatfs\diskio.c(77): warning C280: 'result': unreferenced local variable
+fatfs\diskio.c(127): warning C280: 'res': unreferenced local variable
+fatfs\diskio.c(128): warning C280: 'result': unreferenced local variable
+fatfs\diskio.c(183): warning C280: 'res': unreferenced local variable
+fatfs\diskio.c(184): warning C280: 'result': unreferenced local variable
+fatfs\diskio.c(234): warning C280: 'cmd': unreferenced local variable
+fatfs\diskio.c(235): warning C280: 'buff': unreferenced local variable
+fatfs\diskio.c(238): warning C280: 'res': unreferenced local variable
+fatfs\diskio.c(239): warning C280: 'result': unreferenced local variable
+compiling ff.c...
+fatfs\ff.c(1860): warning C294: unreachable code
+fatfs\ff.c(1949): warning C294: unreachable code
+fatfs\ff.c(2862): warning C294: unreachable code
+fatfs\ff.c(3513): warning C294: unreachable code
+fatfs\ff.c(3821): warning C294: unreachable code
+fatfs\ff.c(5210): warning C294: unreachable code
+fatfs\ff.c(5713): warning C294: unreachable code
+fatfs\ff.c(5823): warning C294: unreachable code
+compiling ffsystem.c...
+compiling ffunicode.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SD_GETCID?SD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SD_GETSECTORCOUNT?SD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_F_WRITE?FF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_F_CLOSE?FF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_F_LSEEK?FF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_F_OPENDIR?FF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_F_CLOSEDIR?FF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_F_READDIR?FF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_F_STAT?FF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_F_GETFREE?FF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_F_TRUNCATE?FF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_F_UNLINK?FF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_F_MKDIR?FF
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_F_RENAME?FF
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  _ADC_RESULT
+    MODULE:  .\Objects\Key.obj (KEY)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ADC_INIT
+    MODULE:  .\Objects\Key.obj (KEY)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ADC_INIT
+    MODULE:  .\Objects\Key.obj (KEY)
+    ADDRESS: 8DFFH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  _ADC_RESULT
+    MODULE:  .\Objects\Key.obj (KEY)
+    ADDRESS: 8E2BH
+Program Size: data=18.2 xdata=6410 code=42340
+creating hex file from ".\Objects\SD_BadApple"...
+".\Objects\SD_BadApple" - 0 Error(s), 43 Warning(s).
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

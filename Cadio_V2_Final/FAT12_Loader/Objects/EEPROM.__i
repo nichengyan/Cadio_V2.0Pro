@@ -1,0 +1,1 @@
+"hardware\EEPROM.c" LARGE OMF2 OPTIMIZE (8,SIZE) BROWSE INCDIR(.\comm;.\comm;.\fat12;.\hardware) DEBUG PRINT(.\Listings\EEPROM.lst) OBJECT(.\Objects\EEPROM.obj)

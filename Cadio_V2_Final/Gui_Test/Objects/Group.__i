@@ -1,0 +1,1 @@
+"gui\Group.c" LARGE OMF2 OPTIMIZE (0,SIZE) BROWSE INCDIR(.\comm;.\hardware;.\fat12;.\gui;.\Expression;.\graphic) DEBUG PRINT(.\Listings\Group.lst) OBJECT(.\Objects\Group.obj)

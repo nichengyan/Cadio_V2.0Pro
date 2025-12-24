@@ -1,0 +1,1 @@
+"hardware\SD.c" LARGE OMF2 OPTIMIZE (8,SPEED) BROWSE INCDIR(.\hardware;.\usb_msc) DEBUG PRINT(.\Listings\SD.lst) OBJECT(.\Objects\SD.obj)

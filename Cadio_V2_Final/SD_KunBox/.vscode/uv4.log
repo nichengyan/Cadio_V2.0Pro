@@ -1,0 +1,22 @@
+Build target 'Target 1'
+compiling main.c...
+main.c(138): error C141: syntax error near '`', expected '__asm'
+compiling ADC.C...
+hardware\ADC.C(8): error C129: missing ';' before 'ADC_Result'
+compiling diskio.c...
+fatfs\diskio.c(30): warning C280: 'stat': unreferenced local variable
+fatfs\diskio.c(31): warning C280: 'result': unreferenced local variable
+fatfs\diskio.c(76): warning C280: 'stat': unreferenced local variable
+fatfs\diskio.c(77): warning C280: 'result': unreferenced local variable
+fatfs\diskio.c(127): warning C280: 'res': unreferenced local variable
+fatfs\diskio.c(128): warning C280: 'result': unreferenced local variable
+fatfs\diskio.c(183): warning C280: 'res': unreferenced local variable
+fatfs\diskio.c(184): warning C280: 'result': unreferenced local variable
+fatfs\diskio.c(234): warning C280: 'cmd': unreferenced local variable
+fatfs\diskio.c(235): warning C280: 'buff': unreferenced local variable
+fatfs\diskio.c(238): warning C280: 'res': unreferenced local variable
+fatfs\diskio.c(239): warning C280: 'result': unreferenced local variable
+compiling SD.c...
+fatfs\SD.c(26): error C202: 'HSSPI_CFG2': undefined identifier
+Target not created.
+Build Time Elapsed:  00:00:00

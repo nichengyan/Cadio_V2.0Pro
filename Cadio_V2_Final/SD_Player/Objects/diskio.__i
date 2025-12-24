@@ -1,0 +1,1 @@
+"fatfs\diskio.c" LARGE OPTIMIZE (9,SPEED) BROWSE INCDIR(.\comm;.\fatfs;.\graphic;.\hardware) DEBUG OBJECTEXTEND PRINT(.\Listings\diskio.lst) OBJECT(.\Objects\diskio.obj)

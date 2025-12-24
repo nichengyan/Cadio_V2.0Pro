@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "name": "Target 1",
+            "includePath": [
+                "c:\\Keil_v5\\projects\\CadioV2.0\\USB_MSC_TEST\\hardware",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\USB_MSC_TEST\\usb_msc",
+                "C:\\Keil_v5\\C51\\INC",
+                "c:\\Keil_v5\\projects\\CadioV2.0\\USB_MSC_TEST"
+            ],
+            "defines": [
+                "__C51__",
+                "__VSCODE_C51__",
+                "reentrant=",
+                "compact=",
+                "small=",
+                "large=",
+                "data=",
+                "idata=",
+                "pdata=",
+                "bdata=",
+                "xdata=",
+                "code=",
+                "bit=char",
+                "sbit=char",
+                "sfr=char",
+                "sfr16=int",
+                "sfr32=int",
+                "interrupt=",
+                "using=",
+                "_at_=",
+                "_priority_=",
+                "_task_="
+            ],
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}

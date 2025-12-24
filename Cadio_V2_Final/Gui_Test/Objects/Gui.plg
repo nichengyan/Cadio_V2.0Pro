@@ -1,0 +1,3290 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Keil_v5\projects\CadioV2.0\Gui_Test\Gui.uvproj
+Project File Date:  08/14/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+compiling Page.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DRAWBMP?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+Program Size: data=15.2 xdata=7978 code=13224
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 28 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Widget.h(6): warning C318: can't open file 'Graphic.h'
+.\gui\Widget_Bmp.h(6): warning C318: can't open file 'Graphic.h'
+compiling Animation.c...
+gui\Widget.h(6): warning C318: can't open file 'Graphic.h'
+compiling Group.c...
+gui\Widget.h(6): warning C318: can't open file 'Graphic.h'
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+gui\Widget.h(6): warning C318: can't open file 'Graphic.h'
+compiling Widget.c...
+gui\Widget.h(6): warning C318: can't open file 'Graphic.h'
+gui\Widget_Bmp.h(6): warning C318: can't open file 'Graphic.h'
+gui\Widget.c(121): warning C206: 'Graphic_ClearBufferBit': missing function-prototype
+gui\Widget.c(121): error C267: 'Graphic_ClearBufferBit': requires ANSI-style prototype
+compiling Widget_Bmp.c...
+gui\Widget.h(6): warning C318: can't open file 'Graphic.h'
+gui\Widget_Bmp.h(6): warning C318: can't open file 'Graphic.h'
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+gui\Widget_Bmp.c(24): error C204: 'px': undefined member
+compiling Graphic.c...
+graphic\Graphic.h(4): warning C318: can't open file '_STC8H_.h'
+graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\graphic\Graphic.h(4): warning C318: can't open file '_STC8H_.h'
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+.\graphic\Graphic.h(4): warning C318: can't open file '_STC8H_.h'
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+.\graphic\Graphic.h(4): warning C318: can't open file '_STC8H_.h'
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+compiling ADC.C...
+compiling Key.c...
+compiling oled.c...
+compiling Animation.c...
+.\graphic\Graphic.h(4): warning C318: can't open file '_STC8H_.h'
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+compiling Group.c...
+.\graphic\Graphic.h(4): warning C318: can't open file '_STC8H_.h'
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+compiling Gui.c...
+.\graphic\Graphic.h(4): warning C318: can't open file '_STC8H_.h'
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+compiling Widget.c...
+.\graphic\Graphic.h(4): warning C318: can't open file '_STC8H_.h'
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+.\graphic\Graphic.h(4): warning C318: can't open file '_STC8H_.h'
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+compiling Page.c...
+compiling Widget_Bmp.c...
+.\graphic\Graphic.h(4): warning C318: can't open file '_STC8H_.h'
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+.\graphic\Graphic.h(4): warning C318: can't open file '_STC8H_.h'
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+gui\Widget_Bmp.c(24): error C204: 'px': undefined member
+compiling Graphic.c...
+graphic\Graphic.h(4): warning C318: can't open file '_STC8H_.h'
+graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+compiling Animation.c...
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+compiling Group.c...
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+compiling Gui.c...
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+compiling Widget.c...
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+compiling Widget_Bmp.c...
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+.\graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+gui\Widget_Bmp.c(24): error C204: 'px': undefined member
+compiling Graphic.c...
+graphic\Graphic.h(22): error C141: syntax error near ';', expected 'hdata'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling Animation.c...
+compiling Group.c...
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+gui\Widget_Bmp.c(24): error C204: 'px': undefined member
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(99): error C202: 'va_list': undefined identifier
+graphic\Graphic.c(99): error C141: syntax error near 'args', expected ';'
+graphic\Graphic.c(100): error C202: 'args': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(99): error C202: 'va_list': undefined identifier
+graphic\Graphic.c(99): error C141: syntax error near 'args', expected ';'
+graphic\Graphic.c(100): error C202: 'args': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling Animation.c...
+compiling Group.c...
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(101): warning C206: 'vsprintf': missing function-prototype
+graphic\Graphic.c(101): error C267: 'vsprintf': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\graphic\Graphic.h(11): warning C318: can't open file 'stding.h'
+.\graphic\Graphic.h(11): warning C318: can't open file 'stding.h'
+.\graphic\Graphic.h(11): warning C318: can't open file 'stding.h'
+compiling Animation.c...
+.\graphic\Graphic.h(11): warning C318: can't open file 'stding.h'
+compiling Group.c...
+.\graphic\Graphic.h(11): warning C318: can't open file 'stding.h'
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+.\graphic\Graphic.h(11): warning C318: can't open file 'stding.h'
+compiling Widget.c...
+.\graphic\Graphic.h(11): warning C318: can't open file 'stding.h'
+.\graphic\Graphic.h(11): warning C318: can't open file 'stding.h'
+compiling Widget_Bmp.c...
+.\graphic\Graphic.h(11): warning C318: can't open file 'stding.h'
+.\graphic\Graphic.h(11): warning C318: can't open file 'stding.h'
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.h(11): warning C318: can't open file 'stding.h'
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+graphic\Graphic.c(106): error C141: syntax error near ';', expected 'hdata'
+graphic\Graphic.c(110): error C202: 'lenth': undefined identifier
+graphic\Graphic.c(111): error C202: 'num': undefined identifier
+graphic\Graphic.c(112): error C202: 'num': undefined identifier
+graphic\Graphic.c(114): error C202: 'lenth': undefined identifier
+graphic\Graphic.c(116): error C202: 'mode': undefined identifier
+graphic\Graphic.c(117): error C202: 'op': undefined identifier
+graphic\Graphic.c(127): error C202: 'op': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling Animation.c...
+compiling Group.c...
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+graphic\Graphic.c(106): error C141: syntax error near ';', expected 'hdata'
+graphic\Graphic.c(110): error C202: 'lenth': undefined identifier
+graphic\Graphic.c(111): error C202: 'num': undefined identifier
+graphic\Graphic.c(112): error C202: 'num': undefined identifier
+graphic\Graphic.c(114): error C202: 'lenth': undefined identifier
+graphic\Graphic.c(116): error C202: 'mode': undefined identifier
+graphic\Graphic.c(117): error C202: 'op': undefined identifier
+graphic\Graphic.c(127): error C202: 'op': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\graphic\Graphic.h(25): error C141: syntax error near ';', expected 'hdata'
+.\graphic\Graphic.h(25): error C141: syntax error near ';', expected 'hdata'
+.\graphic\Graphic.h(25): error C141: syntax error near ';', expected 'hdata'
+compiling Animation.c...
+.\graphic\Graphic.h(25): error C141: syntax error near ';', expected 'hdata'
+compiling Group.c...
+.\graphic\Graphic.h(25): error C141: syntax error near ';', expected 'hdata'
+compiling Gui.c...
+.\graphic\Graphic.h(25): error C141: syntax error near ';', expected 'hdata'
+compiling Widget.c...
+.\graphic\Graphic.h(25): error C141: syntax error near ';', expected 'hdata'
+.\graphic\Graphic.h(25): error C141: syntax error near ';', expected 'hdata'
+compiling Widget_Bmp.c...
+.\graphic\Graphic.h(25): error C141: syntax error near ';', expected 'hdata'
+.\graphic\Graphic.h(25): error C141: syntax error near ';', expected 'hdata'
+compiling Graphic.c...
+graphic\Graphic.h(25): error C141: syntax error near ';', expected 'hdata'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling Animation.c...
+compiling Group.c...
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWLINE?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEWIRED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEFILLED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPGIC_PRINTF?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_SHOWNUM?GRAPHIC
+Program Size: data=15.2 xdata=15380 code=34320
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 57 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling Animation.c...
+compiling Group.c...
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWLINE?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEWIRED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEFILLED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPGIC_PRINTF?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_SHOWNUM?GRAPHIC
+Program Size: data=15.2 xdata=11796 code=34320
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 57 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling Animation.c...
+compiling Group.c...
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWLINE?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEWIRED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEFILLED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPGIC_PRINTF?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_SHOWNUM?GRAPHIC
+Program Size: data=15.2 xdata=15380 code=34320
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 57 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling ADC.C...
+compiling Key.c...
+compiling oled.c...
+compiling Animation.c...
+compiling Group.c...
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+compiling Widget.c...
+compiling Page.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWLINE?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEWIRED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEFILLED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPGIC_PRINTF?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_SHOWNUM?GRAPHIC
+Program Size: data=15.2 xdata=15380 code=34320
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 57 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+.\graphic\Graphic.h(16): error C136: invalid dimension size: [0]
+.\graphic\Graphic.h(16): error C136: invalid dimension size: [0]
+.\graphic\Graphic.h(16): error C136: invalid dimension size: [0]
+compiling Animation.c...
+.\graphic\Graphic.h(16): error C136: invalid dimension size: [0]
+compiling Group.c...
+.\graphic\Graphic.h(16): error C136: invalid dimension size: [0]
+compiling Gui.c...
+.\graphic\Graphic.h(16): error C136: invalid dimension size: [0]
+compiling Widget.c...
+.\graphic\Graphic.h(16): error C136: invalid dimension size: [0]
+.\graphic\Graphic.h(16): error C136: invalid dimension size: [0]
+compiling Widget_Bmp.c...
+.\graphic\Graphic.h(16): error C136: invalid dimension size: [0]
+.\graphic\Graphic.h(16): error C136: invalid dimension size: [0]
+compiling Graphic.c...
+graphic\Graphic.h(16): error C136: invalid dimension size: [0]
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling Animation.c...
+compiling Group.c...
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWLINE?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEWIRED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEFILLED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPGIC_PRINTF?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_SHOWNUM?GRAPHIC
+Program Size: data=15.2 xdata=8219 code=34320
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 57 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling Animation.c...
+compiling Group.c...
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWLINE?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEWIRED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEFILLED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPGIC_PRINTF?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_SHOWNUM?GRAPHIC
+Program Size: data=15.2 xdata=15380 code=34320
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 57 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling Animation.c...
+compiling Group.c...
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWLINE?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEWIRED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEFILLED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPGIC_PRINTF?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_SHOWNUM?GRAPHIC
+Program Size: data=15.2 xdata=15380 code=34320
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 57 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling Animation.c...
+compiling Group.c...
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+graphic\Graphic.c(160): warning C182: pointer to different objects
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWLINE?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEWIRED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEFILLED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPGIC_PRINTF?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_SHOWNUM?GRAPHIC
+Program Size: data=15.2 xdata=22548 code=34395
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 58 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling Animation.c...
+compiling Group.c...
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWLINE?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEWIRED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEFILLED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPGIC_PRINTF?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_SHOWNUM?GRAPHIC
+Program Size: data=15.2 xdata=15380 code=34320
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 57 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling Animation.c...
+compiling Group.c...
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWLINE?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEWIRED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEFILLED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPGIC_PRINTF?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_SHOWNUM?GRAPHIC
+Program Size: data=15.2 xdata=8380 code=34320
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 57 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Widget.h(38): error C141: syntax error near 'deltax', expected ')'
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Animation.h(9): error C141: syntax error near 'int16_t', expected 'bit'
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Animation.h(9): error C129: missing ';' before 'start_x'
+compiling ADC.C...
+compiling Key.c...
+compiling oled.c...
+compiling Animation.c...
+gui\Widget.h(38): error C141: syntax error near 'deltax', expected ')'
+gui\Group.h(22): error C141: syntax error near 'delta_x', expected ')'
+gui\Animation.h(9): error C141: syntax error near 'int16_t', expected 'bit'
+gui\Animation.h(9): error C129: missing ';' before 'start_x'
+compiling Group.c...
+gui\Widget.h(38): error C141: syntax error near 'deltax', expected ')'
+gui\Group.h(22): error C141: syntax error near 'delta_x', expected ')'
+gui\Group.c(35): error C141: syntax error near 'delta_x', expected ')'
+gui\Group.c(45): error C141: syntax error near 'delta_x', expected ')'
+compiling Gui.c...
+gui\Widget.h(38): error C141: syntax error near 'deltax', expected ')'
+gui\Animation.h(9): error C141: syntax error near 'int16_t', expected 'bit'
+gui\Animation.h(9): error C129: missing ';' before 'start_x'
+compiling Widget.c...
+gui\Widget.h(38): error C141: syntax error near 'deltax', expected ')'
+gui\Widget.c(113): error C141: syntax error near 'deltax', expected ')'
+gui\Widget.c(115): error C202: 'deltax': undefined identifier
+gui\Widget.c(116): error C202: 'deltay': undefined identifier
+compiling Page.c...
+compiling Widget_Bmp.c...
+gui\Widget.h(38): error C141: syntax error near 'deltax', expected ')'
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+Target not created
+Build target 'Target 1'
+compiling main.c...
+compiling ADC.C...
+compiling Key.c...
+compiling oled.c...
+compiling Animation.c...
+compiling Group.c...
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+compiling Widget.c...
+compiling Page.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWLINE?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEWIRED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEFILLED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPGIC_PRINTF?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_SHOWNUM?GRAPHIC
+Program Size: data=15.2 xdata=15380 code=34320
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 57 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWLINE?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEWIRED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEFILLED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPGIC_PRINTF?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_SHOWNUM?GRAPHIC
+Program Size: data=15.2 xdata=15390 code=34320
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 38 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+compiling Animation.c...
+compiling Group.c...
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWLINE?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEWIRED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEFILLED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPGIC_PRINTF?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_SHOWNUM?GRAPHIC
+Program Size: data=15.2 xdata=15380 code=34320
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 57 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Animation.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Group.c...
+gui\Gui_Config.h(14): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Gui_Config.h(15): warning C317: attempt to redefine macro 'MAX_ITEM'
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Widget.c...
+compiling Page.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWLINE?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEWIRED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEFILLED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPGIC_PRINTF?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_SHOWNUM?GRAPHIC
+Program Size: data=15.2 xdata=15204 code=34404
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 65 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Animation.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Group.c...
+gui\Gui_Config.h(14): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Gui_Config.h(15): warning C317: attempt to redefine macro 'MAX_ITEM'
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Widget.c...
+compiling Page.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWLINE?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEWIRED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEFILLED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPGIC_PRINTF?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_SHOWNUM?GRAPHIC
+Program Size: data=15.2 xdata=8043 code=34400
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 55 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Animation.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Group.c...
+gui\Gui_Config.h(14): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Gui_Config.h(15): warning C317: attempt to redefine macro 'MAX_ITEM'
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Widget.c...
+compiling Page.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?ADC_SHUTDOWN?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_SCAN?KEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_DISPLAYTURN?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?OLED_DISPLAY_OFF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_SHOWNUM?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLED_PRINTF?OLED
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEPOS?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_ANIM_CREATEOFFSET?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_CREATE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_DELETE?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_ADDWIDGET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUPSETOFFSET?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GROUP_SETOFFSET_ANIM?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_TICK?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_INIT?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GUI_RUN?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SETPOS?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_REGISTER?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_EVENTTRANSMIT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_OPENCURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_CLOSECURRENTPAGE?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SHIFT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_RUN?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PAGE_SETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PAGE_GETSTAT?PAGE
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_BMP_CREATE?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_WIDGET_SET_BMP?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWLINE?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEWIRED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_DRAWCIRCLEFILLED?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPGIC_PRINTF?GRAPHIC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_GRAPHIC_SHOWNUM?GRAPHIC
+Program Size: data=15.2 xdata=882 code=34400
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 65 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling ADC.C...
+compiling Key.c...
+compiling oled.c...
+compiling Animation.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Group.c...
+gui\Gui_Config.h(14): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Gui_Config.h(15): warning C317: attempt to redefine macro 'MAX_ITEM'
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Widget.c...
+compiling Page.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?MAIN
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    ADC_SHUTDOWN/ADC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    KEY_SCAN/KEY
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_DISPLAYTURN/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    OLED_DISPLAY_OFF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_SHOWNUM/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_PRINTF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEPOS/ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEOFFSET/ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_CREATE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_DELETE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_ADDWIDGET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUPSETOFFSET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_SETOFFSET_ANIM/GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_TICK/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_INIT/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_RUN/GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SETPOS/WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_REGISTER/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_EVENTTRANSMIT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_OPENCURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_CLOSECURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SHIFT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_RUN/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_GETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_BMP_CREATE/WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SET_BMP/WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWLINE/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEWIRED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEFILLED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPGIC_PRINTF/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_SHOWNUM/GRAPHIC
+Program Size: data=15.2 xdata=882 const=19288 code=15109
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 65 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Animation.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Group.c...
+gui\Gui_Config.h(14): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Gui_Config.h(15): warning C317: attempt to redefine macro 'MAX_ITEM'
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?MAIN
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    ADC_SHUTDOWN/ADC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    KEY_SCAN/KEY
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_DISPLAYTURN/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    OLED_DISPLAY_OFF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_SHOWNUM/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_PRINTF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEPOS/ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEOFFSET/ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_CREATE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_DELETE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_ADDWIDGET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUPSETOFFSET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_SETOFFSET_ANIM/GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_TICK/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_INIT/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_RUN/GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SETPOS/WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_REGISTER/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_EVENTTRANSMIT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_OPENCURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_CLOSECURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SHIFT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_RUN/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_GETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_BMP_CREATE/WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SET_BMP/WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWLINE/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEWIRED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEFILLED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPGIC_PRINTF/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_SHOWNUM/GRAPHIC
+Program Size: data=15.2 xdata=889 const=19288 code=15109
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 65 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Animation.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Group.c...
+gui\Gui_Config.h(14): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Gui_Config.h(15): warning C317: attempt to redefine macro 'MAX_ITEM'
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?MAIN
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    ADC_SHUTDOWN/ADC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    KEY_SCAN/KEY
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_DISPLAYTURN/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    OLED_DISPLAY_OFF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_SHOWNUM/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_PRINTF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEPOS/ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEOFFSET/ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_CREATE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_DELETE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_ADDWIDGET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUPSETOFFSET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_SETOFFSET_ANIM/GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_TICK/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_INIT/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_RUN/GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SETPOS/WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_REGISTER/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_EVENTTRANSMIT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_OPENCURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_CLOSECURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SHIFT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_RUN/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_GETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_BMP_CREATE/WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SET_BMP/WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWLINE/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEWIRED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEFILLED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPGIC_PRINTF/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_SHOWNUM/GRAPHIC
+Program Size: data=15.2 xdata=889 const=19288 code=15109
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 65 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Animation.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Group.c...
+gui\Gui_Config.h(14): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Gui_Config.h(15): warning C317: attempt to redefine macro 'MAX_ITEM'
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?MAIN
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    ADC_SHUTDOWN/ADC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    KEY_SCAN/KEY
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_DISPLAYTURN/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    OLED_DISPLAY_OFF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_SHOWNUM/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_PRINTF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEPOS/ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEOFFSET/ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_CREATE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_DELETE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_ADDWIDGET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUPSETOFFSET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_SETOFFSET_ANIM/GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_TICK/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_INIT/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_RUN/GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SETPOS/WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_REGISTER/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_EVENTTRANSMIT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_OPENCURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_CLOSECURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SHIFT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_RUN/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_GETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_BMP_CREATE/WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SET_BMP/WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWLINE/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEWIRED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEFILLED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPGIC_PRINTF/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_SHOWNUM/GRAPHIC
+Program Size: data=15.2 xdata=889 const=19288 code=15109
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 65 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Animation.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Group.c...
+gui\Gui_Config.h(14): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Gui_Config.h(15): warning C317: attempt to redefine macro 'MAX_ITEM'
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?MAIN
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    ADC_SHUTDOWN/ADC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    KEY_SCAN/KEY
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_DISPLAYTURN/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    OLED_DISPLAY_OFF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_SHOWNUM/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_PRINTF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEPOS/ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEOFFSET/ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_CREATE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_DELETE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_ADDWIDGET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUPSETOFFSET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_SETOFFSET_ANIM/GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_TICK/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_INIT/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_RUN/GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SETPOS/WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_REGISTER/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_EVENTTRANSMIT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_OPENCURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_CLOSECURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SHIFT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_RUN/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_GETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_BMP_CREATE/WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SET_BMP/WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWLINE/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEWIRED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEFILLED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPGIC_PRINTF/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_SHOWNUM/GRAPHIC
+Program Size: data=15.2 xdata=8029 const=19288 code=15109
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 65 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Animation.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Group.c...
+gui\Gui_Config.h(14): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Gui_Config.h(15): warning C317: attempt to redefine macro 'MAX_ITEM'
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?MAIN
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    ADC_SHUTDOWN/ADC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    KEY_SCAN/KEY
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_DISPLAYTURN/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    OLED_DISPLAY_OFF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_SHOWNUM/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_PRINTF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEPOS/ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEOFFSET/ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_CREATE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_DELETE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_ADDWIDGET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUPSETOFFSET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_SETOFFSET_ANIM/GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_TICK/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_INIT/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_RUN/GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SETPOS/WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_REGISTER/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_EVENTTRANSMIT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_OPENCURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_CLOSECURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SHIFT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_RUN/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_GETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_BMP_CREATE/WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SET_BMP/WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWLINE/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEWIRED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEFILLED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPGIC_PRINTF/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_SHOWNUM/GRAPHIC
+Program Size: data=15.2 xdata=8043 const=19288 code=15109
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 65 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Animation.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Group.c...
+gui\Gui_Config.h(14): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Gui_Config.h(15): warning C317: attempt to redefine macro 'MAX_ITEM'
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  Graphic_FrameBuffer
+    MODULE:  .\Objects\Animation.obj (ANIMATION)
+   DEFINED:  .\Objects\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  Graphic_FrameBuffer
+    MODULE:  .\Objects\Group.obj (GROUP)
+   DEFINED:  .\Objects\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  Graphic_FrameBuffer
+    MODULE:  .\Objects\Gui.obj (GUI)
+   DEFINED:  .\Objects\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  Graphic_FrameBuffer
+    MODULE:  .\Objects\Widget.obj (WIDGET)
+   DEFINED:  .\Objects\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  Graphic_FrameBuffer
+    MODULE:  .\Objects\Widget_Bmp.obj (WIDGET_BMP)
+   DEFINED:  .\Objects\main.obj (MAIN)
+*** ERROR L104: MULTIPLE PUBLIC DEFINITIONS
+    SYMBOL:  Graphic_FrameBuffer
+    MODULE:  .\Objects\Graphic.obj (GRAPHIC)
+   DEFINED:  .\Objects\main.obj (MAIN)
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?MAIN
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    ADC_SHUTDOWN/ADC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    KEY_SCAN/KEY
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_DISPLAYTURN/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    OLED_DISPLAY_OFF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_SHOWNUM/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_PRINTF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEPOS/ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEOFFSET/ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_CREATE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_DELETE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_ADDWIDGET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUPSETOFFSET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_SETOFFSET_ANIM/GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_TICK/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_INIT/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_RUN/GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SETPOS/WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_REGISTER/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_EVENTTRANSMIT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_OPENCURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_CLOSECURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SHIFT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_RUN/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_GETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_BMP_CREATE/WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SET_BMP/WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWLINE/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEWIRED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEFILLED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPGIC_PRINTF/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_SHOWNUM/GRAPHIC
+Program Size: data=15.2 xdata=8043 const=19288 code=15109
+Target not created
+Build target 'Target 1'
+compiling main.c...
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Animation.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Group.c...
+gui\Gui_Config.h(14): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Gui_Config.h(15): warning C317: attempt to redefine macro 'MAX_ITEM'
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?MAIN
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    ADC_SHUTDOWN/ADC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    KEY_SCAN/KEY
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_DISPLAYTURN/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    OLED_DISPLAY_OFF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_SHOWNUM/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_PRINTF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEPOS/ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEOFFSET/ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_CREATE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_DELETE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_ADDWIDGET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUPSETOFFSET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_SETOFFSET_ANIM/GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_TICK/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_INIT/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_RUN/GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SETPOS/WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_REGISTER/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_EVENTTRANSMIT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_OPENCURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_CLOSECURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SHIFT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_RUN/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_GETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_BMP_CREATE/WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SET_BMP/WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWLINE/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEWIRED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEFILLED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPGIC_PRINTF/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_SHOWNUM/GRAPHIC
+Program Size: data=15.2 xdata=8043 const=19288 code=15109
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 65 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Animation.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Group.c...
+gui\Gui_Config.h(14): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Gui_Config.h(15): warning C317: attempt to redefine macro 'MAX_ITEM'
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?MAIN
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    ADC_SHUTDOWN/ADC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    KEY_SCAN/KEY
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_DISPLAYTURN/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    OLED_DISPLAY_OFF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_SHOWNUM/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_PRINTF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEPOS/ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEOFFSET/ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_CREATE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_DELETE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_ADDWIDGET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUPSETOFFSET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_SETOFFSET_ANIM/GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_TICK/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_INIT/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_RUN/GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SETPOS/WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_REGISTER/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_EVENTTRANSMIT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_OPENCURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_CLOSECURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SHIFT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_RUN/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_GETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_BMP_CREATE/WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SET_BMP/WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWLINE/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEWIRED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEFILLED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPGIC_PRINTF/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_SHOWNUM/GRAPHIC
+Program Size: data=15.2 xdata=882 const=19288 code=15109
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 65 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+\Keil_v5\projects\CadioV2.0\Gui_Test\gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Animation.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Group.c...
+gui\Gui_Config.h(14): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Gui_Config.h(15): warning C317: attempt to redefine macro 'MAX_ITEM'
+gui\Group.c(7): warning C173: missing return-expression
+gui\Group.c(4): warning C280: 'i': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_x': unreferenced local variable
+gui\Group.c(45): warning C280: 'delta_y': unreferenced local variable
+gui\Group.c(45): warning C280: 'duration': unreferenced local variable
+gui\Group.c(45): warning C280: 'anim_end_cb': unreferenced local variable
+gui\Group.c(11): warning C291: not every exit path returns a value
+compiling Gui.c...
+gui\Config.h(7): warning C317: attempt to redefine macro 'MAX_PAGE'
+gui\Config.h(8): warning C317: attempt to redefine macro 'MAX_ITEM'
+compiling Widget.c...
+compiling Widget_Bmp.c...
+gui\Widget_Bmp.c(3): warning C280: 'sizex': unreferenced local variable
+gui\Widget_Bmp.c(3): warning C280: 'sizey': unreferenced local variable
+compiling Graphic.c...
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(17): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(21): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(27): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(30): warning C182: pointer to different objects
+graphic\Graphic.c(97): warning C280: 'sx': unreferenced local variable
+graphic\Graphic.c(97): warning C280: 'sy': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?MAIN
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    ADC_SHUTDOWN/ADC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    KEY_SCAN/KEY
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_DISPLAYTURN/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    OLED_DISPLAY_OFF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_SHOWNUM/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _OLED_PRINTF/OLED
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEPOS/ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _ANIM_CREATEOFFSET/ANIMATION
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?ANIMATION
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_CREATE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_DELETE/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_ADDWIDGET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUPSETOFFSET/GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GROUP_SETOFFSET_ANIM/GROUP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GROUP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_TICK/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_INIT/GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    GUI_RUN/GUI
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?GUI
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SETPOS/WIDGET
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_REGISTER/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_EVENTTRANSMIT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_OPENCURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_CLOSECURRENTPAGE/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SHIFT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_RUN/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _PAGE_SETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    PAGE_GETSTAT/PAGE
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_BMP_CREATE/WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _WIDGET_SET_BMP/WIDGET_BMP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    NAME:    ?CO?WIDGET_BMP
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWLINE/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEWIRED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_DRAWCIRCLEFILLED/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPGIC_PRINTF/GRAPHIC
+*** WARNING L57: UNCALLED FUNCTION, IGNORED FOR OVERLAY PROCESS
+    NAME:    _GRAPHIC_SHOWNUM/GRAPHIC
+Program Size: data=15.2 xdata=889 const=19288 code=15109
+creating hex file from ".\Objects\Gui"...
+".\Objects\Gui" - 0 Error(s), 65 Warning(s).
