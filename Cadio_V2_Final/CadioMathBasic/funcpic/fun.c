@@ -345,8 +345,8 @@ void Fun_Unary(Page *pa)
                 now_y = resy / alphay;
                 if(Set_AutoContinue_Flg()){ //是否开启连续性补偿
                     if(fi > 0.01f){  //float比大小,让他至少第一个点不进行连续性检测
-                        if(now_y >= prv_y) {for(step_y = prv_y; step_y <= now_y && step_y >= 0 && step_y < 64 ;step_y++) Gui_DrawPoint(pa, fi, oy - step_y, 1);}
-                        if(now_y <  prv_y) {for(step_y = now_y; step_y <= prv_y && step_y >= 0 && step_y < 64 ;step_y++) Gui_DrawPoint(pa, fi, oy - step_y, 1);}
+                        if(now_y >= prv_y) {for(step_y = prv_y; step_y <= now_y && oy - step_y >= 0 && oy - step_y < 64 ;step_y++) Gui_DrawPoint(pa, fi, oy - step_y, 1);}
+                        if(now_y <  prv_y) {for(step_y = now_y; step_y <= prv_y && oy - step_y >= 0 && oy - step_y < 64 ;step_y++) Gui_DrawPoint(pa, fi, oy - step_y, 1);}
                     }
                 }else{
                     Gui_DrawPoint(pa, fi, oy - now_y, 1);
@@ -804,8 +804,8 @@ void Fun_Dynamic(Page *pa)
                 now_y = resy / alphay;
                 if(Set_AutoContinue_Flg()){ //是否开启连续性补偿
                     if(fi > 0.01f){  //float比大小,让他至少第一个点不进行连续性检测
-                        if(now_y >= prv_y) {for(step_y = prv_y; step_y <= now_y && step_y >= 0 && step_y < 64 ;step_y++) Gui_DrawPoint(pa, fi, oy - step_y, 1);}
-                        if(now_y <  prv_y) {for(step_y = now_y; step_y <= prv_y && step_y >= 0 && step_y < 64 ;step_y++) Gui_DrawPoint(pa, fi, oy - step_y, 1);}
+                        if(now_y >= prv_y) {for(step_y = prv_y; step_y <= now_y && oy - step_y >= 0 && oy - step_y < 64 ;step_y++) Gui_DrawPoint(pa, fi, oy - step_y, 1);}
+                        if(now_y <  prv_y) {for(step_y = now_y; step_y <= prv_y && oy - step_y >= 0 && oy - step_y < 64 ;step_y++) Gui_DrawPoint(pa, fi, oy - step_y, 1);}
                     }
                 }else{
                     Gui_DrawPoint(pa, fi, oy - now_y, 1);

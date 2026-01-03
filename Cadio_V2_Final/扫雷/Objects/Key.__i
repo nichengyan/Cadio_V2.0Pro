@@ -1,1 +1,0 @@
-"hardware\Key.c" LARGE OPTIMIZE (8,SPEED) BROWSE INTVECTOR(0x3000) INCDIR(.\comm;.\comm;.\graphic;.\hardware) DEBUG OBJECTEXTEND PRINT(.\Listings\Key.lst) OBJECT(.\Objects\Key.obj)
